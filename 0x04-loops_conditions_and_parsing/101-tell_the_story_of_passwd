@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+IFS=':'
+while read -r username pwd uid gid uid_info home_dir cmd_sh
+do
+	echo "The user $username is part of the $gid gand, lives in $home_dir and rides $cmd_sh. $uid's place is protected by the passcode $pwd, more about the user here: $uid_info"
+done < "/etc/passwd"
