@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script display files in current directory skipping characters before '-'
 
 for file in `ls`
 do

@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# This script uses 'awk' to parse a log file by group lines by ipaddress
 
 awk '{print $1 " " $9}' apache-access.log | sort | uniq -c | sort -nr

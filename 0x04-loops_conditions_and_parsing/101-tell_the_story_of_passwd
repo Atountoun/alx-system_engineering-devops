@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script parses the output of /etc/passwd and format
 
 IFS=':'
 while read -r username pwd uid gid uid_info home_dir cmd_sh

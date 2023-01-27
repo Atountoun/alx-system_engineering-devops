@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script is used for various manipulations on files
 
 filename="school"
 

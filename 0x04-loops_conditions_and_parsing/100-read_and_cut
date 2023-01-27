@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script select 'username', 'user id', 'home directory' from /etc/passwd output
 
 while read -r line
 do

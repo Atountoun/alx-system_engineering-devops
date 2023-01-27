@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script uses case syntax to display statements
 
 i=1
 while [ "$i" -le 20 ]

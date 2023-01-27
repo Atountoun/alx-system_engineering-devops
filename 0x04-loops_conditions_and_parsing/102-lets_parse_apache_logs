@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# This script uses 'awk' to parse apache server log file: 'ipaddress' and 'status code'
 
 awk '{print $1, $9}' apache-access.log

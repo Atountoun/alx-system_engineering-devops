@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script displays 'bad luck', 'good luck', 'Best School' on conditions
 
 i=1
 while [ "$i" -le 10 ]
