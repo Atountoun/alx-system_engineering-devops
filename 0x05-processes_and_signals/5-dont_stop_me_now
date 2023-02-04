@@ -6,6 +6,6 @@ do
 	proc_name=$(cat $pid/cmdline | tr '\0' ' ')
 	if [[ $proc_name == *"4-to_infinity_and_beyond"* ]]
 	then
-		kill -9 $(basename $pid)
+		kill -15 $(basename $pid)
 	fi
 done
